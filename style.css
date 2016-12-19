@@ -1,20 +1,5 @@
 body{
   min-height:100%;
   padding:0;
-  color:red;
   background-color: black;
-}
-
-#quote{
-  background-color:blue;
-  width:50%;
-  font-size:24px;
-  padding:10% 0;
-  margin:auto;
-  color:yellow;
-}
-.btn{
-  width: 30%;
-  margin:10% 35% 90% 35%;
-  background-color:#FA8B60
 }
