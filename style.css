@@ -1,5 +1,9 @@
-body{
+body {
   min-height:100%;
   padding:0;
   background-color: black;
+}
+
+#mainCon {
+  background-color: purple;
 }
