@@ -7,3 +7,7 @@ body {
 #mainCon {
   background-color: purple;
 }
+
+blockquote{
+  padding:20% 0% 20% 0%;
+}
