@@ -16,3 +16,9 @@ blockquote {
   width:30%;
   margin:10% 35% 0% 35%;
 }
+
+#bottomRow {
+  background-color:white;
+  position:bottom;
+
+}
