@@ -8,6 +8,11 @@ body {
   background-color: purple;
 }
 
-blockquote{
+blockquote {
   padding:5% 20% 0% 20%;
+}
+
+.btn {
+  width:30%;
+  margin:0% 35% 0% 35%;
 }
