@@ -1,11 +1,11 @@
 $(function(){
-   var url = 'http://api.forismatic.com/api/1.0/';
-   
-   var request = 'method=getQuote&format=json&lang=en';
-	ajax(url, request, function(data){
-   
-      $('#quote').html(data);
-   
-   });
-  
+	var api = 'http://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?';
+	
+	$('#butt').on('click', function(){
+		$.getJSON(api)
+	.success(function(data){
+		$('#quote').html(""+data.quoteText);
+		$('#author').html("-"+data.quoteAuthor);
+		});
+	});
 });
