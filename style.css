@@ -8,8 +8,9 @@ body {
   background-color: purple;
 }
 
-#title {
+#titleRow {
   padding-bottom: 10%;
+  background-color:pink;
 }
 
 blockquote {
