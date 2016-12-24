@@ -8,6 +8,10 @@ body {
   background-color: purple;
 }
 
+#title {
+  padding-bottom: 10%;
+}
+
 blockquote {
   padding:5% 20% 0% 20%;
 }
