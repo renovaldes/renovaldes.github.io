@@ -7,8 +7,6 @@ $(function(){
 		});
 	
 	$('#butt').on('click', function(){
-		$('#quote').hide();
-		$('#author').hide();
 		$.getJSON(api,function(data){
 			$('#quote').html(""+data.quoteText);
 			$('#author').html("- "+data.quoteAuthor);
